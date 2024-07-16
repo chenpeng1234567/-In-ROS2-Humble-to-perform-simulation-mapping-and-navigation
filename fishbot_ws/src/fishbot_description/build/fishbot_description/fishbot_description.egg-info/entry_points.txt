@@ -1,0 +1,3 @@
+[console_scripts]
+rotate_wheel = fishbot_description.rotate_wheel:main
+

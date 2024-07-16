@@ -1,0 +1,750 @@
+[0.080s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/cp/fishbot_ws']
+[0.080s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/cp/fishbot_ws'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x771d04823310>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x771d04946ef0>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x771d04946ef0>>, mixin_verb=('list',))
+[0.219s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.219s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.219s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.219s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.219s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.219s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/cp/fishbot_ws'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws) by extension 'ignore'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws) by extension 'ignore_ament_install'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws) by extensions ['colcon_pkg']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws) by extension 'colcon_pkg'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws) by extensions ['colcon_meta']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws) by extension 'colcon_meta'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws) by extensions ['ros']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws) by extension 'ros'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws) by extensions ['cmake', 'python']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws) by extension 'cmake'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws) by extension 'python'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws) by extensions ['python_setup_py']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws) by extension 'python_setup_py'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/log) by extension 'ignore'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/log) ignored
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src) by extension 'ignore'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src) by extension 'ignore_ament_install'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src) by extensions ['colcon_pkg']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src) by extension 'colcon_pkg'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src) by extensions ['colcon_meta']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src) by extension 'colcon_meta'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src) by extensions ['ros']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src) by extension 'ros'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src) by extensions ['cmake', 'python']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src) by extension 'cmake'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src) by extension 'python'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src) by extensions ['python_setup_py']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src) by extension 'python_setup_py'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/build) by extension 'ignore'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/build) ignored
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/cartographer) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/cartographer) by extension 'ignore'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/cartographer) by extension 'ignore_ament_install'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/cartographer) by extensions ['colcon_pkg']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/cartographer) by extension 'colcon_pkg'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/cartographer) by extensions ['colcon_meta']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/cartographer) by extension 'colcon_meta'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/cartographer) by extensions ['ros']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/cartographer) by extension 'ros'
+[0.233s] DEBUG:colcon.colcon_core.package_identification:Package '/home/cp/fishbot_ws/src/cartographer' with type 'ros.cmake' and name 'cartographer'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/cartographer_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/cartographer_ros) by extension 'ignore'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/cartographer_ros) by extension 'ignore_ament_install'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/cartographer_ros) by extensions ['colcon_pkg']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/cartographer_ros) by extension 'colcon_pkg'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/cartographer_ros) by extensions ['colcon_meta']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/cartographer_ros) by extension 'colcon_meta'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/cartographer_ros) by extensions ['ros']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/cartographer_ros) by extension 'ros'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/cartographer_ros) by extensions ['cmake', 'python']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/cartographer_ros) by extension 'cmake'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/cartographer_ros) by extension 'python'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/cartographer_ros) by extensions ['python_setup_py']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/cartographer_ros) by extension 'python_setup_py'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/cartographer_ros/cartographer_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/cartographer_ros/cartographer_ros) by extension 'ignore'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/cartographer_ros/cartographer_ros) by extension 'ignore_ament_install'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/cartographer_ros/cartographer_ros) by extensions ['colcon_pkg']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/cartographer_ros/cartographer_ros) by extension 'colcon_pkg'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/cartographer_ros/cartographer_ros) by extensions ['colcon_meta']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/cartographer_ros/cartographer_ros) by extension 'colcon_meta'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/cartographer_ros/cartographer_ros) by extensions ['ros']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/cartographer_ros/cartographer_ros) by extension 'ros'
+[0.235s] DEBUG:colcon.colcon_core.package_identification:Package '/home/cp/fishbot_ws/src/cartographer_ros/cartographer_ros' with type 'ros.ament_cmake' and name 'cartographer_ros'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/cartographer_ros/cartographer_ros_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/cartographer_ros/cartographer_ros_msgs) by extension 'ignore'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/cartographer_ros/cartographer_ros_msgs) by extension 'ignore_ament_install'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/cartographer_ros/cartographer_ros_msgs) by extensions ['colcon_pkg']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/cartographer_ros/cartographer_ros_msgs) by extension 'colcon_pkg'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/cartographer_ros/cartographer_ros_msgs) by extensions ['colcon_meta']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/cartographer_ros/cartographer_ros_msgs) by extension 'colcon_meta'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/cartographer_ros/cartographer_ros_msgs) by extensions ['ros']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/cartographer_ros/cartographer_ros_msgs) by extension 'ros'
+[0.236s] DEBUG:colcon.colcon_core.package_identification:Package '/home/cp/fishbot_ws/src/cartographer_ros/cartographer_ros_msgs' with type 'ros.ament_cmake' and name 'cartographer_ros_msgs'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/cartographer_ros/cartographer_rviz) by extensions ['ignore', 'ignore_ament_install']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/cartographer_ros/cartographer_rviz) by extension 'ignore'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/cartographer_ros/cartographer_rviz) by extension 'ignore_ament_install'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/cartographer_ros/cartographer_rviz) by extensions ['colcon_pkg']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/cartographer_ros/cartographer_rviz) by extension 'colcon_pkg'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/cartographer_ros/cartographer_rviz) by extensions ['colcon_meta']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/cartographer_ros/cartographer_rviz) by extension 'colcon_meta'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/cartographer_ros/cartographer_rviz) by extensions ['ros']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/cartographer_ros/cartographer_rviz) by extension 'ros'
+[0.238s] DEBUG:colcon.colcon_core.package_identification:Package '/home/cp/fishbot_ws/src/cartographer_ros/cartographer_rviz' with type 'ros.ament_cmake' and name 'cartographer_rviz'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/cartographer_ros/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/cartographer_ros/docs) by extension 'ignore'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/cartographer_ros/docs) ignored
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/cartographer_ros/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/cartographer_ros/scripts) by extension 'ignore'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/cartographer_ros/scripts) by extension 'ignore_ament_install'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/cartographer_ros/scripts) by extensions ['colcon_pkg']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/cartographer_ros/scripts) by extension 'colcon_pkg'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/cartographer_ros/scripts) by extensions ['colcon_meta']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/cartographer_ros/scripts) by extension 'colcon_meta'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/cartographer_ros/scripts) by extensions ['ros']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/cartographer_ros/scripts) by extension 'ros'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/cartographer_ros/scripts) by extensions ['cmake', 'python']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/cartographer_ros/scripts) by extension 'cmake'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/cartographer_ros/scripts) by extension 'python'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/cartographer_ros/scripts) by extensions ['python_setup_py']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/cartographer_ros/scripts) by extension 'python_setup_py'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/fishbot_cartographer) by extensions ['ignore', 'ignore_ament_install']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/fishbot_cartographer) by extension 'ignore'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/fishbot_cartographer) by extension 'ignore_ament_install'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/fishbot_cartographer) by extensions ['colcon_pkg']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/fishbot_cartographer) by extension 'colcon_pkg'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/fishbot_cartographer) by extensions ['colcon_meta']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/fishbot_cartographer) by extension 'colcon_meta'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/fishbot_cartographer) by extensions ['ros']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/fishbot_cartographer) by extension 'ros'
+[0.239s] DEBUG:colcon.colcon_core.package_identification:Package '/home/cp/fishbot_ws/src/fishbot_cartographer' with type 'ros.ament_cmake' and name 'fishbot_cartographer'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/fishbot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/fishbot_description) by extension 'ignore'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/fishbot_description) by extension 'ignore_ament_install'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/fishbot_description) by extensions ['colcon_pkg']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/fishbot_description) by extension 'colcon_pkg'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/fishbot_description) by extensions ['colcon_meta']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/fishbot_description) by extension 'colcon_meta'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/fishbot_description) by extensions ['ros']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/fishbot_description) by extension 'ros'
+[0.240s] DEBUG:colcon.colcon_core.package_identification:Package '/home/cp/fishbot_ws/src/fishbot_description' with type 'ros.ament_python' and name 'fishbot_description'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/fishbot_navigation2) by extensions ['ignore', 'ignore_ament_install']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/fishbot_navigation2) by extension 'ignore'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/fishbot_navigation2) by extension 'ignore_ament_install'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/fishbot_navigation2) by extensions ['colcon_pkg']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/fishbot_navigation2) by extension 'colcon_pkg'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/fishbot_navigation2) by extensions ['colcon_meta']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/fishbot_navigation2) by extension 'colcon_meta'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/fishbot_navigation2) by extensions ['ros']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/fishbot_navigation2) by extension 'ros'
+[0.241s] DEBUG:colcon.colcon_core.package_identification:Package '/home/cp/fishbot_ws/src/fishbot_navigation2' with type 'ros.ament_cmake' and name 'fishbot_navigation2'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/install) by extension 'ignore'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/install) ignored
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/log) by extension 'ignore'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/log) ignored
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2) by extensions ['ignore', 'ignore_ament_install']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2) by extension 'ignore'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2) by extension 'ignore_ament_install'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2) by extensions ['colcon_pkg']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2) by extension 'colcon_pkg'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2) by extensions ['colcon_meta']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2) by extension 'colcon_meta'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2) by extensions ['ros']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2) by extension 'ros'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2) by extensions ['cmake', 'python']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2) by extension 'cmake'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2) by extension 'python'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2) by extensions ['python_setup_py']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2) by extension 'python_setup_py'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc) by extensions ['ignore', 'ignore_ament_install']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc) by extension 'ignore'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc) by extension 'ignore_ament_install'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc) by extensions ['colcon_pkg']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc) by extension 'colcon_pkg'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc) by extensions ['colcon_meta']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc) by extension 'colcon_meta'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc) by extensions ['ros']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc) by extension 'ros'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc) by extensions ['cmake', 'python']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc) by extension 'cmake'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc) by extension 'python'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc) by extensions ['python_setup_py']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc) by extension 'python_setup_py'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/architecture) by extensions ['ignore', 'ignore_ament_install']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/architecture) by extension 'ignore'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/architecture) by extension 'ignore_ament_install'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/architecture) by extensions ['colcon_pkg']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/architecture) by extension 'colcon_pkg'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/architecture) by extensions ['colcon_meta']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/architecture) by extension 'colcon_meta'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/architecture) by extensions ['ros']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/architecture) by extension 'ros'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/architecture) by extensions ['cmake', 'python']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/architecture) by extension 'cmake'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/architecture) by extension 'python'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/architecture) by extensions ['python_setup_py']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/architecture) by extension 'python_setup_py'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/design) by extensions ['ignore', 'ignore_ament_install']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/design) by extension 'ignore'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/design) by extension 'ignore_ament_install'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/design) by extensions ['colcon_pkg']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/design) by extension 'colcon_pkg'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/design) by extensions ['colcon_meta']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/design) by extension 'colcon_meta'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/design) by extensions ['ros']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/design) by extension 'ros'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/design) by extensions ['cmake', 'python']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/design) by extension 'cmake'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/design) by extension 'python'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/design) by extensions ['python_setup_py']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/design) by extension 'python_setup_py'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/development) by extensions ['ignore', 'ignore_ament_install']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/development) by extension 'ignore'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/development) by extension 'ignore_ament_install'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/development) by extensions ['colcon_pkg']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/development) by extension 'colcon_pkg'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/development) by extensions ['colcon_meta']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/development) by extension 'colcon_meta'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/development) by extensions ['ros']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/development) by extension 'ros'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/development) by extensions ['cmake', 'python']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/development) by extension 'cmake'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/development) by extension 'python'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/development) by extensions ['python_setup_py']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/development) by extension 'python_setup_py'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/process) by extensions ['ignore', 'ignore_ament_install']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/process) by extension 'ignore'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/process) by extension 'ignore_ament_install'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/process) by extensions ['colcon_pkg']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/process) by extension 'colcon_pkg'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/process) by extensions ['colcon_meta']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/process) by extension 'colcon_meta'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/process) by extensions ['ros']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/process) by extension 'ros'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/process) by extensions ['cmake', 'python']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/process) by extension 'cmake'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/process) by extension 'python'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/process) by extensions ['python_setup_py']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/process) by extension 'python_setup_py'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/requirements) by extensions ['ignore', 'ignore_ament_install']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/requirements) by extension 'ignore'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/requirements) by extension 'ignore_ament_install'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/requirements) by extensions ['colcon_pkg']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/requirements) by extension 'colcon_pkg'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/requirements) by extensions ['colcon_meta']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/requirements) by extension 'colcon_meta'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/requirements) by extensions ['ros']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/requirements) by extension 'ros'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/requirements) by extensions ['cmake', 'python']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/requirements) by extension 'cmake'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/requirements) by extension 'python'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/requirements) by extensions ['python_setup_py']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/requirements) by extension 'python_setup_py'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/requirements/images) by extensions ['ignore', 'ignore_ament_install']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/requirements/images) by extension 'ignore'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/requirements/images) by extension 'ignore_ament_install'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/requirements/images) by extensions ['colcon_pkg']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/requirements/images) by extension 'colcon_pkg'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/requirements/images) by extensions ['colcon_meta']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/requirements/images) by extension 'colcon_meta'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/requirements/images) by extensions ['ros']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/requirements/images) by extension 'ros'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/requirements/images) by extensions ['cmake', 'python']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/requirements/images) by extension 'cmake'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/requirements/images) by extension 'python'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/requirements/images) by extensions ['python_setup_py']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/requirements/images) by extension 'python_setup_py'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/use_cases) by extensions ['ignore', 'ignore_ament_install']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/use_cases) by extension 'ignore'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/use_cases) by extension 'ignore_ament_install'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/use_cases) by extensions ['colcon_pkg']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/use_cases) by extension 'colcon_pkg'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/use_cases) by extensions ['colcon_meta']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/use_cases) by extension 'colcon_meta'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/use_cases) by extensions ['ros']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/use_cases) by extension 'ros'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/use_cases) by extensions ['cmake', 'python']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/use_cases) by extension 'cmake'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/use_cases) by extension 'python'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/use_cases) by extensions ['python_setup_py']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/doc/use_cases) by extension 'python_setup_py'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_amcl) by extensions ['ignore', 'ignore_ament_install']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_amcl) by extension 'ignore'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_amcl) by extension 'ignore_ament_install'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_amcl) by extensions ['colcon_pkg']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_amcl) by extension 'colcon_pkg'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_amcl) by extensions ['colcon_meta']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_amcl) by extension 'colcon_meta'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_amcl) by extensions ['ros']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_amcl) by extension 'ros'
+[0.247s] DEBUG:colcon.colcon_core.package_identification:Package '/home/cp/fishbot_ws/src/navigation2/nav2_amcl' with type 'ros.ament_cmake' and name 'nav2_amcl'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_behavior_tree) by extensions ['ignore', 'ignore_ament_install']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_behavior_tree) by extension 'ignore'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_behavior_tree) by extension 'ignore_ament_install'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_behavior_tree) by extensions ['colcon_pkg']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_behavior_tree) by extension 'colcon_pkg'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_behavior_tree) by extensions ['colcon_meta']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_behavior_tree) by extension 'colcon_meta'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_behavior_tree) by extensions ['ros']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_behavior_tree) by extension 'ros'
+[0.248s] DEBUG:colcon.colcon_core.package_identification:Package '/home/cp/fishbot_ws/src/navigation2/nav2_behavior_tree' with type 'ros.ament_cmake' and name 'nav2_behavior_tree'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_behaviors) by extensions ['ignore', 'ignore_ament_install']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_behaviors) by extension 'ignore'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_behaviors) by extension 'ignore_ament_install'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_behaviors) by extensions ['colcon_pkg']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_behaviors) by extension 'colcon_pkg'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_behaviors) by extensions ['colcon_meta']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_behaviors) by extension 'colcon_meta'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_behaviors) by extensions ['ros']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_behaviors) by extension 'ros'
+[0.249s] DEBUG:colcon.colcon_core.package_identification:Package '/home/cp/fishbot_ws/src/navigation2/nav2_behaviors' with type 'ros.ament_cmake' and name 'nav2_behaviors'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_bringup) by extension 'ignore'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_bringup) by extension 'ignore_ament_install'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_bringup) by extensions ['colcon_pkg']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_bringup) by extension 'colcon_pkg'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_bringup) by extensions ['colcon_meta']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_bringup) by extension 'colcon_meta'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_bringup) by extensions ['ros']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_bringup) by extension 'ros'
+[0.250s] DEBUG:colcon.colcon_core.package_identification:Package '/home/cp/fishbot_ws/src/navigation2/nav2_bringup' with type 'ros.ament_cmake' and name 'nav2_bringup'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_bt_navigator) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_bt_navigator) by extension 'ignore'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_bt_navigator) by extension 'ignore_ament_install'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_bt_navigator) by extensions ['colcon_pkg']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_bt_navigator) by extension 'colcon_pkg'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_bt_navigator) by extensions ['colcon_meta']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_bt_navigator) by extension 'colcon_meta'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_bt_navigator) by extensions ['ros']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_bt_navigator) by extension 'ros'
+[0.251s] DEBUG:colcon.colcon_core.package_identification:Package '/home/cp/fishbot_ws/src/navigation2/nav2_bt_navigator' with type 'ros.ament_cmake' and name 'nav2_bt_navigator'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_collision_monitor) by extensions ['ignore', 'ignore_ament_install']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_collision_monitor) by extension 'ignore'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_collision_monitor) by extension 'ignore_ament_install'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_collision_monitor) by extensions ['colcon_pkg']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_collision_monitor) by extension 'colcon_pkg'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_collision_monitor) by extensions ['colcon_meta']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_collision_monitor) by extension 'colcon_meta'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_collision_monitor) by extensions ['ros']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_collision_monitor) by extension 'ros'
+[0.253s] DEBUG:colcon.colcon_core.package_identification:Package '/home/cp/fishbot_ws/src/navigation2/nav2_collision_monitor' with type 'ros.ament_cmake' and name 'nav2_collision_monitor'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_common) by extensions ['ignore', 'ignore_ament_install']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_common) by extension 'ignore'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_common) by extension 'ignore_ament_install'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_common) by extensions ['colcon_pkg']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_common) by extension 'colcon_pkg'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_common) by extensions ['colcon_meta']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_common) by extension 'colcon_meta'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_common) by extensions ['ros']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_common) by extension 'ros'
+[0.254s] DEBUG:colcon.colcon_core.package_identification:Package '/home/cp/fishbot_ws/src/navigation2/nav2_common' with type 'ros.ament_cmake' and name 'nav2_common'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_constrained_smoother) by extensions ['ignore', 'ignore_ament_install']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_constrained_smoother) by extension 'ignore'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_constrained_smoother) by extension 'ignore_ament_install'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_constrained_smoother) by extensions ['colcon_pkg']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_constrained_smoother) by extension 'colcon_pkg'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_constrained_smoother) by extensions ['colcon_meta']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_constrained_smoother) by extension 'colcon_meta'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_constrained_smoother) by extensions ['ros']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_constrained_smoother) by extension 'ros'
+[0.255s] DEBUG:colcon.colcon_core.package_identification:Package '/home/cp/fishbot_ws/src/navigation2/nav2_constrained_smoother' with type 'ros.ament_cmake' and name 'nav2_constrained_smoother'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_controller) by extension 'ignore'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_controller) by extension 'ignore_ament_install'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_controller) by extensions ['colcon_pkg']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_controller) by extension 'colcon_pkg'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_controller) by extensions ['colcon_meta']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_controller) by extension 'colcon_meta'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_controller) by extensions ['ros']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_controller) by extension 'ros'
+[0.256s] DEBUG:colcon.colcon_core.package_identification:Package '/home/cp/fishbot_ws/src/navigation2/nav2_controller' with type 'ros.ament_cmake' and name 'nav2_controller'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_core) by extensions ['ignore', 'ignore_ament_install']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_core) by extension 'ignore'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_core) by extension 'ignore_ament_install'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_core) by extensions ['colcon_pkg']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_core) by extension 'colcon_pkg'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_core) by extensions ['colcon_meta']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_core) by extension 'colcon_meta'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_core) by extensions ['ros']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_core) by extension 'ros'
+[0.257s] DEBUG:colcon.colcon_core.package_identification:Package '/home/cp/fishbot_ws/src/navigation2/nav2_core' with type 'ros.ament_cmake' and name 'nav2_core'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_costmap_2d) by extensions ['ignore', 'ignore_ament_install']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_costmap_2d) by extension 'ignore'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_costmap_2d) by extension 'ignore_ament_install'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_costmap_2d) by extensions ['colcon_pkg']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_costmap_2d) by extension 'colcon_pkg'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_costmap_2d) by extensions ['colcon_meta']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_costmap_2d) by extension 'colcon_meta'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_costmap_2d) by extensions ['ros']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_costmap_2d) by extension 'ros'
+[0.259s] DEBUG:colcon.colcon_core.package_identification:Package '/home/cp/fishbot_ws/src/navigation2/nav2_costmap_2d' with type 'ros.ament_cmake' and name 'nav2_costmap_2d'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller) by extension 'ignore'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller) by extension 'ignore_ament_install'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller) by extensions ['colcon_pkg']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller) by extension 'colcon_pkg'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller) by extensions ['colcon_meta']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller) by extension 'colcon_meta'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller) by extensions ['ros']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller) by extension 'ros'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller) by extensions ['cmake', 'python']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller) by extension 'cmake'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller) by extension 'python'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller) by extensions ['python_setup_py']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller) by extension 'python_setup_py'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/costmap_queue) by extensions ['ignore', 'ignore_ament_install']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/costmap_queue) by extension 'ignore'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/costmap_queue) by extension 'ignore_ament_install'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/costmap_queue) by extensions ['colcon_pkg']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/costmap_queue) by extension 'colcon_pkg'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/costmap_queue) by extensions ['colcon_meta']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/costmap_queue) by extension 'colcon_meta'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/costmap_queue) by extensions ['ros']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/costmap_queue) by extension 'ros'
+[0.260s] DEBUG:colcon.colcon_core.package_identification:Package '/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/costmap_queue' with type 'ros.ament_cmake' and name 'costmap_queue'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/dwb_core) by extensions ['ignore', 'ignore_ament_install']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/dwb_core) by extension 'ignore'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/dwb_core) by extension 'ignore_ament_install'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/dwb_core) by extensions ['colcon_pkg']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/dwb_core) by extension 'colcon_pkg'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/dwb_core) by extensions ['colcon_meta']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/dwb_core) by extension 'colcon_meta'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/dwb_core) by extensions ['ros']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/dwb_core) by extension 'ros'
+[0.261s] DEBUG:colcon.colcon_core.package_identification:Package '/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/dwb_core' with type 'ros.ament_cmake' and name 'dwb_core'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/dwb_critics) by extensions ['ignore', 'ignore_ament_install']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/dwb_critics) by extension 'ignore'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/dwb_critics) by extension 'ignore_ament_install'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/dwb_critics) by extensions ['colcon_pkg']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/dwb_critics) by extension 'colcon_pkg'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/dwb_critics) by extensions ['colcon_meta']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/dwb_critics) by extension 'colcon_meta'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/dwb_critics) by extensions ['ros']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/dwb_critics) by extension 'ros'
+[0.263s] DEBUG:colcon.colcon_core.package_identification:Package '/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/dwb_critics' with type 'ros.ament_cmake' and name 'dwb_critics'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/dwb_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/dwb_msgs) by extension 'ignore'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/dwb_msgs) by extension 'ignore_ament_install'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/dwb_msgs) by extensions ['colcon_pkg']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/dwb_msgs) by extension 'colcon_pkg'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/dwb_msgs) by extensions ['colcon_meta']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/dwb_msgs) by extension 'colcon_meta'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/dwb_msgs) by extensions ['ros']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/dwb_msgs) by extension 'ros'
+[0.264s] DEBUG:colcon.colcon_core.package_identification:Package '/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/dwb_msgs' with type 'ros.ament_cmake' and name 'dwb_msgs'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/dwb_plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/dwb_plugins) by extension 'ignore'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/dwb_plugins) by extension 'ignore_ament_install'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/dwb_plugins) by extensions ['colcon_pkg']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/dwb_plugins) by extension 'colcon_pkg'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/dwb_plugins) by extensions ['colcon_meta']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/dwb_plugins) by extension 'colcon_meta'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/dwb_plugins) by extensions ['ros']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/dwb_plugins) by extension 'ros'
+[0.265s] DEBUG:colcon.colcon_core.package_identification:Package '/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/dwb_plugins' with type 'ros.ament_cmake' and name 'dwb_plugins'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/images) by extensions ['ignore', 'ignore_ament_install']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/images) by extension 'ignore'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/images) by extension 'ignore_ament_install'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/images) by extensions ['colcon_pkg']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/images) by extension 'colcon_pkg'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/images) by extensions ['colcon_meta']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/images) by extension 'colcon_meta'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/images) by extensions ['ros']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/images) by extension 'ros'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/images) by extensions ['cmake', 'python']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/images) by extension 'cmake'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/images) by extension 'python'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/images) by extensions ['python_setup_py']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/images) by extension 'python_setup_py'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/nav2_dwb_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/nav2_dwb_controller) by extension 'ignore'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/nav2_dwb_controller) by extension 'ignore_ament_install'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/nav2_dwb_controller) by extensions ['colcon_pkg']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/nav2_dwb_controller) by extension 'colcon_pkg'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/nav2_dwb_controller) by extensions ['colcon_meta']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/nav2_dwb_controller) by extension 'colcon_meta'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/nav2_dwb_controller) by extensions ['ros']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/nav2_dwb_controller) by extension 'ros'
+[0.267s] DEBUG:colcon.colcon_core.package_identification:Package '/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/nav2_dwb_controller' with type 'ros.ament_cmake' and name 'nav2_dwb_controller'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/nav_2d_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/nav_2d_msgs) by extension 'ignore'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/nav_2d_msgs) by extension 'ignore_ament_install'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/nav_2d_msgs) by extensions ['colcon_pkg']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/nav_2d_msgs) by extension 'colcon_pkg'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/nav_2d_msgs) by extensions ['colcon_meta']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/nav_2d_msgs) by extension 'colcon_meta'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/nav_2d_msgs) by extensions ['ros']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/nav_2d_msgs) by extension 'ros'
+[0.268s] DEBUG:colcon.colcon_core.package_identification:Package '/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/nav_2d_msgs' with type 'ros.ament_cmake' and name 'nav_2d_msgs'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/nav_2d_utils) by extensions ['ignore', 'ignore_ament_install']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/nav_2d_utils) by extension 'ignore'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/nav_2d_utils) by extension 'ignore_ament_install'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/nav_2d_utils) by extensions ['colcon_pkg']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/nav_2d_utils) by extension 'colcon_pkg'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/nav_2d_utils) by extensions ['colcon_meta']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/nav_2d_utils) by extension 'colcon_meta'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/nav_2d_utils) by extensions ['ros']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/nav_2d_utils) by extension 'ros'
+[0.269s] DEBUG:colcon.colcon_core.package_identification:Package '/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/nav_2d_utils' with type 'ros.ament_cmake' and name 'nav_2d_utils'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_graceful_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_graceful_controller) by extension 'ignore'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_graceful_controller) by extension 'ignore_ament_install'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_graceful_controller) by extensions ['colcon_pkg']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_graceful_controller) by extension 'colcon_pkg'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_graceful_controller) by extensions ['colcon_meta']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_graceful_controller) by extension 'colcon_meta'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_graceful_controller) by extensions ['ros']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_graceful_controller) by extension 'ros'
+[0.270s] DEBUG:colcon.colcon_core.package_identification:Package '/home/cp/fishbot_ws/src/navigation2/nav2_graceful_controller' with type 'ros.ament_cmake' and name 'nav2_graceful_controller'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_lifecycle_manager) by extensions ['ignore', 'ignore_ament_install']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_lifecycle_manager) by extension 'ignore'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_lifecycle_manager) by extension 'ignore_ament_install'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_lifecycle_manager) by extensions ['colcon_pkg']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_lifecycle_manager) by extension 'colcon_pkg'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_lifecycle_manager) by extensions ['colcon_meta']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_lifecycle_manager) by extension 'colcon_meta'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_lifecycle_manager) by extensions ['ros']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_lifecycle_manager) by extension 'ros'
+[0.271s] DEBUG:colcon.colcon_core.package_identification:Package '/home/cp/fishbot_ws/src/navigation2/nav2_lifecycle_manager' with type 'ros.ament_cmake' and name 'nav2_lifecycle_manager'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_map_server) by extensions ['ignore', 'ignore_ament_install']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_map_server) by extension 'ignore'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_map_server) by extension 'ignore_ament_install'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_map_server) by extensions ['colcon_pkg']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_map_server) by extension 'colcon_pkg'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_map_server) by extensions ['colcon_meta']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_map_server) by extension 'colcon_meta'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_map_server) by extensions ['ros']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_map_server) by extension 'ros'
+[0.272s] DEBUG:colcon.colcon_core.package_identification:Package '/home/cp/fishbot_ws/src/navigation2/nav2_map_server' with type 'ros.ament_cmake' and name 'nav2_map_server'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_mppi_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_mppi_controller) by extension 'ignore'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_mppi_controller) by extension 'ignore_ament_install'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_mppi_controller) by extensions ['colcon_pkg']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_mppi_controller) by extension 'colcon_pkg'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_mppi_controller) by extensions ['colcon_meta']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_mppi_controller) by extension 'colcon_meta'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_mppi_controller) by extensions ['ros']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_mppi_controller) by extension 'ros'
+[0.274s] DEBUG:colcon.colcon_core.package_identification:Package '/home/cp/fishbot_ws/src/navigation2/nav2_mppi_controller' with type 'ros.ament_cmake' and name 'nav2_mppi_controller'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_msgs) by extension 'ignore'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_msgs) by extension 'ignore_ament_install'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_msgs) by extensions ['colcon_pkg']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_msgs) by extension 'colcon_pkg'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_msgs) by extensions ['colcon_meta']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_msgs) by extension 'colcon_meta'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_msgs) by extensions ['ros']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_msgs) by extension 'ros'
+[0.275s] DEBUG:colcon.colcon_core.package_identification:Package '/home/cp/fishbot_ws/src/navigation2/nav2_msgs' with type 'ros.ament_cmake' and name 'nav2_msgs'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_navfn_planner) by extensions ['ignore', 'ignore_ament_install']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_navfn_planner) by extension 'ignore'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_navfn_planner) by extension 'ignore_ament_install'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_navfn_planner) by extensions ['colcon_pkg']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_navfn_planner) by extension 'colcon_pkg'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_navfn_planner) by extensions ['colcon_meta']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_navfn_planner) by extension 'colcon_meta'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_navfn_planner) by extensions ['ros']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_navfn_planner) by extension 'ros'
+[0.277s] DEBUG:colcon.colcon_core.package_identification:Package '/home/cp/fishbot_ws/src/navigation2/nav2_navfn_planner' with type 'ros.ament_cmake' and name 'nav2_navfn_planner'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_planner) by extensions ['ignore', 'ignore_ament_install']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_planner) by extension 'ignore'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_planner) by extension 'ignore_ament_install'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_planner) by extensions ['colcon_pkg']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_planner) by extension 'colcon_pkg'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_planner) by extensions ['colcon_meta']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_planner) by extension 'colcon_meta'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_planner) by extensions ['ros']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_planner) by extension 'ros'
+[0.278s] DEBUG:colcon.colcon_core.package_identification:Package '/home/cp/fishbot_ws/src/navigation2/nav2_planner' with type 'ros.ament_cmake' and name 'nav2_planner'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_regulated_pure_pursuit_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_regulated_pure_pursuit_controller) by extension 'ignore'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_regulated_pure_pursuit_controller) by extension 'ignore_ament_install'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_regulated_pure_pursuit_controller) by extensions ['colcon_pkg']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_regulated_pure_pursuit_controller) by extension 'colcon_pkg'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_regulated_pure_pursuit_controller) by extensions ['colcon_meta']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_regulated_pure_pursuit_controller) by extension 'colcon_meta'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_regulated_pure_pursuit_controller) by extensions ['ros']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_regulated_pure_pursuit_controller) by extension 'ros'
+[0.292s] DEBUG:colcon.colcon_core.package_identification:Package '/home/cp/fishbot_ws/src/navigation2/nav2_regulated_pure_pursuit_controller' with type 'ros.ament_cmake' and name 'nav2_regulated_pure_pursuit_controller'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_rotation_shim_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_rotation_shim_controller) by extension 'ignore'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_rotation_shim_controller) by extension 'ignore_ament_install'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_rotation_shim_controller) by extensions ['colcon_pkg']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_rotation_shim_controller) by extension 'colcon_pkg'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_rotation_shim_controller) by extensions ['colcon_meta']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_rotation_shim_controller) by extension 'colcon_meta'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_rotation_shim_controller) by extensions ['ros']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_rotation_shim_controller) by extension 'ros'
+[0.294s] DEBUG:colcon.colcon_core.package_identification:Package '/home/cp/fishbot_ws/src/navigation2/nav2_rotation_shim_controller' with type 'ros.ament_cmake' and name 'nav2_rotation_shim_controller'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_rviz_plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_rviz_plugins) by extension 'ignore'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_rviz_plugins) by extension 'ignore_ament_install'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_rviz_plugins) by extensions ['colcon_pkg']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_rviz_plugins) by extension 'colcon_pkg'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_rviz_plugins) by extensions ['colcon_meta']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_rviz_plugins) by extension 'colcon_meta'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_rviz_plugins) by extensions ['ros']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_rviz_plugins) by extension 'ros'
+[0.295s] DEBUG:colcon.colcon_core.package_identification:Package '/home/cp/fishbot_ws/src/navigation2/nav2_rviz_plugins' with type 'ros.ament_cmake' and name 'nav2_rviz_plugins'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_simple_commander) by extensions ['ignore', 'ignore_ament_install']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_simple_commander) by extension 'ignore'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_simple_commander) by extension 'ignore_ament_install'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_simple_commander) by extensions ['colcon_pkg']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_simple_commander) by extension 'colcon_pkg'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_simple_commander) by extensions ['colcon_meta']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_simple_commander) by extension 'colcon_meta'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_simple_commander) by extensions ['ros']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_simple_commander) by extension 'ros'
+[0.296s] DEBUG:colcon.colcon_core.package_identification:Package '/home/cp/fishbot_ws/src/navigation2/nav2_simple_commander' with type 'ros.ament_python' and name 'nav2_simple_commander'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_smac_planner) by extensions ['ignore', 'ignore_ament_install']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_smac_planner) by extension 'ignore'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_smac_planner) by extension 'ignore_ament_install'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_smac_planner) by extensions ['colcon_pkg']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_smac_planner) by extension 'colcon_pkg'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_smac_planner) by extensions ['colcon_meta']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_smac_planner) by extension 'colcon_meta'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_smac_planner) by extensions ['ros']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_smac_planner) by extension 'ros'
+[0.298s] DEBUG:colcon.colcon_core.package_identification:Package '/home/cp/fishbot_ws/src/navigation2/nav2_smac_planner' with type 'ros.ament_cmake' and name 'nav2_smac_planner'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_smoother) by extensions ['ignore', 'ignore_ament_install']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_smoother) by extension 'ignore'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_smoother) by extension 'ignore_ament_install'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_smoother) by extensions ['colcon_pkg']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_smoother) by extension 'colcon_pkg'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_smoother) by extensions ['colcon_meta']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_smoother) by extension 'colcon_meta'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_smoother) by extensions ['ros']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_smoother) by extension 'ros'
+[0.299s] DEBUG:colcon.colcon_core.package_identification:Package '/home/cp/fishbot_ws/src/navigation2/nav2_smoother' with type 'ros.ament_cmake' and name 'nav2_smoother'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_system_tests) by extensions ['ignore', 'ignore_ament_install']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_system_tests) by extension 'ignore'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_system_tests) by extension 'ignore_ament_install'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_system_tests) by extensions ['colcon_pkg']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_system_tests) by extension 'colcon_pkg'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_system_tests) by extensions ['colcon_meta']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_system_tests) by extension 'colcon_meta'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_system_tests) by extensions ['ros']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_system_tests) by extension 'ros'
+[0.300s] DEBUG:colcon.colcon_core.package_identification:Package '/home/cp/fishbot_ws/src/navigation2/nav2_system_tests' with type 'ros.ament_cmake' and name 'nav2_system_tests'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_theta_star_planner) by extensions ['ignore', 'ignore_ament_install']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_theta_star_planner) by extension 'ignore'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_theta_star_planner) by extension 'ignore_ament_install'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_theta_star_planner) by extensions ['colcon_pkg']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_theta_star_planner) by extension 'colcon_pkg'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_theta_star_planner) by extensions ['colcon_meta']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_theta_star_planner) by extension 'colcon_meta'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_theta_star_planner) by extensions ['ros']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_theta_star_planner) by extension 'ros'
+[0.301s] DEBUG:colcon.colcon_core.package_identification:Package '/home/cp/fishbot_ws/src/navigation2/nav2_theta_star_planner' with type 'ros.ament_cmake' and name 'nav2_theta_star_planner'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_util) by extensions ['ignore', 'ignore_ament_install']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_util) by extension 'ignore'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_util) by extension 'ignore_ament_install'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_util) by extensions ['colcon_pkg']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_util) by extension 'colcon_pkg'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_util) by extensions ['colcon_meta']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_util) by extension 'colcon_meta'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_util) by extensions ['ros']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_util) by extension 'ros'
+[0.303s] DEBUG:colcon.colcon_core.package_identification:Package '/home/cp/fishbot_ws/src/navigation2/nav2_util' with type 'ros.ament_cmake' and name 'nav2_util'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_velocity_smoother) by extensions ['ignore', 'ignore_ament_install']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_velocity_smoother) by extension 'ignore'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_velocity_smoother) by extension 'ignore_ament_install'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_velocity_smoother) by extensions ['colcon_pkg']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_velocity_smoother) by extension 'colcon_pkg'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_velocity_smoother) by extensions ['colcon_meta']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_velocity_smoother) by extension 'colcon_meta'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_velocity_smoother) by extensions ['ros']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_velocity_smoother) by extension 'ros'
+[0.304s] DEBUG:colcon.colcon_core.package_identification:Package '/home/cp/fishbot_ws/src/navigation2/nav2_velocity_smoother' with type 'ros.ament_cmake' and name 'nav2_velocity_smoother'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_voxel_grid) by extensions ['ignore', 'ignore_ament_install']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_voxel_grid) by extension 'ignore'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_voxel_grid) by extension 'ignore_ament_install'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_voxel_grid) by extensions ['colcon_pkg']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_voxel_grid) by extension 'colcon_pkg'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_voxel_grid) by extensions ['colcon_meta']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_voxel_grid) by extension 'colcon_meta'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_voxel_grid) by extensions ['ros']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_voxel_grid) by extension 'ros'
+[0.305s] DEBUG:colcon.colcon_core.package_identification:Package '/home/cp/fishbot_ws/src/navigation2/nav2_voxel_grid' with type 'ros.ament_cmake' and name 'nav2_voxel_grid'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_waypoint_follower) by extensions ['ignore', 'ignore_ament_install']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_waypoint_follower) by extension 'ignore'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_waypoint_follower) by extension 'ignore_ament_install'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_waypoint_follower) by extensions ['colcon_pkg']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_waypoint_follower) by extension 'colcon_pkg'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_waypoint_follower) by extensions ['colcon_meta']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_waypoint_follower) by extension 'colcon_meta'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_waypoint_follower) by extensions ['ros']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/nav2_waypoint_follower) by extension 'ros'
+[0.306s] DEBUG:colcon.colcon_core.package_identification:Package '/home/cp/fishbot_ws/src/navigation2/nav2_waypoint_follower' with type 'ros.ament_cmake' and name 'nav2_waypoint_follower'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/navigation2) by extensions ['ignore', 'ignore_ament_install']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/navigation2) by extension 'ignore'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/navigation2) by extension 'ignore_ament_install'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/navigation2) by extensions ['colcon_pkg']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/navigation2) by extension 'colcon_pkg'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/navigation2) by extensions ['colcon_meta']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/navigation2) by extension 'colcon_meta'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/navigation2) by extensions ['ros']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/navigation2) by extension 'ros'
+[0.307s] DEBUG:colcon.colcon_core.package_identification:Package '/home/cp/fishbot_ws/src/navigation2/navigation2' with type 'ros.ament_cmake' and name 'navigation2'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/tools) by extensions ['ignore', 'ignore_ament_install']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/tools) by extension 'ignore'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/tools) by extension 'ignore_ament_install'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/tools) by extensions ['colcon_pkg']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/tools) by extension 'colcon_pkg'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/tools) by extensions ['colcon_meta']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/tools) by extension 'colcon_meta'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/tools) by extensions ['ros']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/tools) by extension 'ros'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/tools) by extensions ['cmake', 'python']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/tools) by extension 'cmake'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/tools) by extension 'python'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/tools) by extensions ['python_setup_py']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/tools) by extension 'python_setup_py'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/tools/planner_benchmarking) by extensions ['ignore', 'ignore_ament_install']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/tools/planner_benchmarking) by extension 'ignore'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/tools/planner_benchmarking) by extension 'ignore_ament_install'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/tools/planner_benchmarking) by extensions ['colcon_pkg']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/tools/planner_benchmarking) by extension 'colcon_pkg'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/tools/planner_benchmarking) by extensions ['colcon_meta']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/tools/planner_benchmarking) by extension 'colcon_meta'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/tools/planner_benchmarking) by extensions ['ros']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/tools/planner_benchmarking) by extension 'ros'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/tools/planner_benchmarking) by extensions ['cmake', 'python']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/tools/planner_benchmarking) by extension 'cmake'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/tools/planner_benchmarking) by extension 'python'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/tools/planner_benchmarking) by extensions ['python_setup_py']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/tools/planner_benchmarking) by extension 'python_setup_py'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/tools/smoother_benchmarking) by extensions ['ignore', 'ignore_ament_install']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/tools/smoother_benchmarking) by extension 'ignore'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/tools/smoother_benchmarking) by extension 'ignore_ament_install'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/tools/smoother_benchmarking) by extensions ['colcon_pkg']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/tools/smoother_benchmarking) by extension 'colcon_pkg'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/tools/smoother_benchmarking) by extensions ['colcon_meta']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/tools/smoother_benchmarking) by extension 'colcon_meta'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/tools/smoother_benchmarking) by extensions ['ros']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/tools/smoother_benchmarking) by extension 'ros'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/tools/smoother_benchmarking) by extensions ['cmake', 'python']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/tools/smoother_benchmarking) by extension 'cmake'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/tools/smoother_benchmarking) by extension 'python'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/tools/smoother_benchmarking) by extensions ['python_setup_py']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/tools/smoother_benchmarking) by extension 'python_setup_py'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/tools/smoother_benchmarking/maps) by extensions ['ignore', 'ignore_ament_install']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/tools/smoother_benchmarking/maps) by extension 'ignore'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/tools/smoother_benchmarking/maps) by extension 'ignore_ament_install'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/tools/smoother_benchmarking/maps) by extensions ['colcon_pkg']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/tools/smoother_benchmarking/maps) by extension 'colcon_pkg'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/tools/smoother_benchmarking/maps) by extensions ['colcon_meta']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/tools/smoother_benchmarking/maps) by extension 'colcon_meta'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/tools/smoother_benchmarking/maps) by extensions ['ros']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/tools/smoother_benchmarking/maps) by extension 'ros'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/tools/smoother_benchmarking/maps) by extensions ['cmake', 'python']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/tools/smoother_benchmarking/maps) by extension 'cmake'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/tools/smoother_benchmarking/maps) by extension 'python'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/tools/smoother_benchmarking/maps) by extensions ['python_setup_py']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(/home/cp/fishbot_ws/src/navigation2/tools/smoother_benchmarking/maps) by extension 'python_setup_py'
+[0.309s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

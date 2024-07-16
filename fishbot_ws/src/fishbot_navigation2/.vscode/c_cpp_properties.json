@@ -1,0 +1,53 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/opt/ros/humble/include/**",
+        "/home/cp/fishbot_ws/src/cartographer_ros/cartographer_ros/include/**",
+        "/home/cp/fishbot_ws/src/cartographer_ros/cartographer_rviz/include/**",
+        "/home/cp/fishbot_ws/src/fishbot_navigation2/include/**",
+        "/home/cp/fishbot_ws/src/navigation2/nav2_amcl/include/**",
+        "/home/cp/fishbot_ws/src/navigation2/nav2_behavior_tree/include/**",
+        "/home/cp/fishbot_ws/src/navigation2/nav2_behaviors/include/**",
+        "/home/cp/fishbot_ws/src/navigation2/nav2_bt_navigator/include/**",
+        "/home/cp/fishbot_ws/src/navigation2/nav2_collision_monitor/include/**",
+        "/home/cp/fishbot_ws/src/navigation2/nav2_constrained_smoother/include/**",
+        "/home/cp/fishbot_ws/src/navigation2/nav2_controller/include/**",
+        "/home/cp/fishbot_ws/src/navigation2/nav2_core/include/**",
+        "/home/cp/fishbot_ws/src/navigation2/nav2_costmap_2d/include/**",
+        "/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/costmap_queue/include/**",
+        "/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/dwb_core/include/**",
+        "/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/dwb_critics/include/**",
+        "/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/dwb_plugins/include/**",
+        "/home/cp/fishbot_ws/src/navigation2/nav2_dwb_controller/nav_2d_utils/include/**",
+        "/home/cp/fishbot_ws/src/navigation2/nav2_graceful_controller/include/**",
+        "/home/cp/fishbot_ws/src/navigation2/nav2_lifecycle_manager/include/**",
+        "/home/cp/fishbot_ws/src/navigation2/nav2_map_server/include/**",
+        "/home/cp/fishbot_ws/src/navigation2/nav2_mppi_controller/include/**",
+        "/home/cp/fishbot_ws/src/navigation2/nav2_navfn_planner/include/**",
+        "/home/cp/fishbot_ws/src/navigation2/nav2_planner/include/**",
+        "/home/cp/fishbot_ws/src/navigation2/nav2_regulated_pure_pursuit_controller/include/**",
+        "/home/cp/fishbot_ws/src/navigation2/nav2_rotation_shim_controller/include/**",
+        "/home/cp/fishbot_ws/src/navigation2/nav2_rviz_plugins/include/**",
+        "/home/cp/fishbot_ws/src/navigation2/nav2_smac_planner/include/**",
+        "/home/cp/fishbot_ws/src/navigation2/nav2_smoother/include/**",
+        "/home/cp/fishbot_ws/src/navigation2/nav2_theta_star_planner/include/**",
+        "/home/cp/fishbot_ws/src/navigation2/nav2_util/include/**",
+        "/home/cp/fishbot_ws/src/navigation2/nav2_velocity_smoother/include/**",
+        "/home/cp/fishbot_ws/src/navigation2/nav2_voxel_grid/include/**",
+        "/home/cp/fishbot_ws/src/navigation2/nav2_waypoint_follower/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
