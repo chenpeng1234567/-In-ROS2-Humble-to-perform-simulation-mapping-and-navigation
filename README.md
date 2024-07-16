@@ -1,12 +1,12 @@
 # -In-ROS2-Humble-to-perform-simulation-mapping-and-navigation
 学习了鱼香ROS的文档，我在ROS2 humble版本中进行二轮差速车的仿真，建图，导航。
-
+  
 在src文件中获取cartographer,cartographer_ros,navigation2
 源码安装
 git clone https://ghproxy.com/https://github.com/ros2/cartographer.git -b ros2
 git clone https://ghproxy.com/https://github.com/ros2/cartographer_ros.git -b ros2
 git clone https://ghproxy.com/https://github.com/ros-planning/navigation2.git -b humble
-
+  
 https://ghproxy.com如果你有代理，这部分你可以不需要
 
 此时你的文件已经齐全了，如果你有相关配置，可以在/src文件下打开终端
